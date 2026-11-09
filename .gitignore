@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Compiled TypeScript output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local application data
+data/*.json
+
+# Temporary files
+*.tmp
